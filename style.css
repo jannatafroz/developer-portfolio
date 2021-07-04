@@ -10,6 +10,8 @@ span{
 }
 section{
     display: flex;
+    height: 500px;
+    padding-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -29,4 +31,8 @@ section{
 .bg{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}.bg2{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
